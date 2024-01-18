@@ -5,7 +5,7 @@
 body, html {
     height: 90%;
 }
-header {
+header, footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -13,15 +13,19 @@ header {
     padding-left: 8%;
     padding-right: 8%;
 }
-#header-links ul {
+footer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+#header-links ul, #footer-links ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.header-link {
+.header-link, .footer-link {
     list-style: none;
 }
-.header-link a {
+.header-link a, .footer-link a {
     text-decoration: none;
     color: black;
     padding: 1rem
@@ -42,4 +46,16 @@ header {
     transform: translate(-50%,-50%);
     background-color: white;
     padding: 1rem;
+}
+#everyday {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem;
+}
+h2 {
+    align-self: start;
+}
+table {
+    width: 75%;
 }
