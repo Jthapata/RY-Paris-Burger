@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+body, html {
+    height: 90%;
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -24,25 +27,19 @@ header {
     padding: 1rem
 }
 #hero {
+    background-image: url("../images/hero-image.jpg");
+    height: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
-    display: inline-block;
-    width: 100%;
-    max-height: 500px;
-    overflow: hidden;
-}
-#hero img {
-    display: block;
-    width: 100%;
-    height: auto;
 }
 #hero-text {
-    position: relative;
     text-align: center;
-}
-#hero-text h1 {
     position: absolute;
-    top: 10;
+    bottom: 10%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%,-50%);
     background-color: white;
+    padding: 1rem;
 }
