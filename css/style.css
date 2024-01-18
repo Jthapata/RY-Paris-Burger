@@ -26,16 +26,20 @@ header {
 #hero {
     position: relative;
     display: inline-block;
+    width: 100%;
 }
 #hero img {
     display: block;
     width: 100%;
-    height: auto;
 }
-#hero h1 {
-    background-color: white;
+#hero-text {
+    position: relative;
+    text-align: center;
+}
+#hero-text h1 {
     position: absolute;
     bottom: 10%;
     left: 50%;
-    text-align: center;
+    transform: translate(-50%, -50%);
+    background-color: white;
 }
