@@ -65,9 +65,7 @@ p {
     font-size: x-large;
 }
 table {
-    width: 80%;
-    text-align: center;
-    align-items: center;
+    width: 100%;
 }
 table img {
     width: 100%;
@@ -80,4 +78,14 @@ td {
 }
 .whiteback {
     background-color: white;
+}
+.imagesections {
+    display: flex;
+    justify-content: center;
+}
+.imagesection {
+    width: 50%;
+}
+.imagesection img {
+    width: 100%;
 }
