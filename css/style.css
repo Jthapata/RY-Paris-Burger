@@ -64,6 +64,9 @@ p {
     padding-bottom: .5%;
     font-size: x-large;
 }
+.sections {
+    padding-bottom: 4rem;
+}
 .whiteback {
     background-color: white;
 }
