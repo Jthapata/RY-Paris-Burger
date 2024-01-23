@@ -59,7 +59,11 @@ table {
     margin-left: 20%;
 }
 td {
+    padding: .5rem 0;
     padding-right: 4rem;
+}
+.bold {
+    font-weight: bolder;
 }
 #main-content {
     width: 100%;
@@ -108,10 +112,10 @@ button {
 #instructions {
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 60%;
 }
 #ingredients, #directions {
-    width: 50%;
+    width: 60%;
     padding: 3rem;
 
 }
