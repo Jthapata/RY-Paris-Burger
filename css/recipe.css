@@ -84,6 +84,40 @@ td {
 .save-recipe {
     padding: 1rem;
 }
-button {#a63223
-    
+button {
+    background-color: #a63223;
+    padding: 1rem;
+    border-radius: 30px;
+    border: none;
+    color: white;
+}
+#printer {
+    border: 1px solid black;
+    padding: .5rem;
+    border-radius: 30px;
+}
+.review {
+    background-color: #eef0f4;
+    width: 50%;
+    font-size:25px;
+    font-weight: bolder;
+    padding: 2rem 5rem;
+    text-align: center;
+    color: #575656
+}
+#instructions {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+#ingredients, #directions {
+    width: 50%;
+    padding: 3rem;
+
+}
+ul, ol {
+    margin: 1rem
+}
+li {
+    margin: .5rem;
 }
