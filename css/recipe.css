@@ -53,10 +53,10 @@ footer {
     padding-bottom: 1rem;
 }
 .prep-info h2 {
-    margin-left: 3rem;
+    margin-left: 20%;
 }
 table {
-    margin-left: 3rem;
+    margin-left: 20%;
 }
 td {
     padding-right: 4rem;
@@ -67,6 +67,23 @@ td {
     flex-direction: column;
     align-items: center;
 }
+#info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 #info h2 {
     font-size: 50px;
+}
+.checked {
+    color: #a63223;
+}
+.reviews {
+    padding: 1rem;
+}
+.save-recipe {
+    padding: 1rem;
+}
+button {#a63223
+    
 }
